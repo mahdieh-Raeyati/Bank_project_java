@@ -1,0 +1,179 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {comp panel1:::p::p, space :0:0:x}}"
+			"$verticalGroup": "par l {comp panel1::t:::x}"
+		} ) {
+			name: "this"
+			"undecorated": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:52:p, comp label1:::p:73:p, par l {seq {space :p:31:p, comp label5:::p:140:p}, seq {space :::p, comp first_name_label:::p:104:p, space :::p, comp label2:::::x}}, space :::p, par l {seq t {comp label14:::p:20:p, space :::p, comp label13:::p:20:p}, comp lastname_label:::p:113:p}, space :p:8:p}, seq l {space :p:117:p, par l {comp button2:::p:195:p, par t:::p {comp Create_a_newaccount_button::::195:x, comp Available_accounts_list_button::::195:x, comp Money_transfer_button::::195:x, comp Delete_an_accountbutton::::195:x, comp Financial_transactions_listbutton::::195:x, comp Change_password_button::::195:x, comp button1::t:::x}}, space :::x}}"
+				"$verticalGroup": "par l {seq l {par l {seq {par b {comp label13::b:p:19:p, comp label14::b:p:19:p}, space :p:18:p}, seq t {comp label5:::p:25:p, space :::p}}, par l {comp label1::l:p:28:p, comp first_name_label::l:p:28:p, comp label2::l:p:28:p, comp lastname_label::l:p:28:p}, space :p:33:p, comp Money_transfer_button:::p:38:p, space :::p, comp Available_accounts_list_button:::p:38:p, space :::p, comp Create_a_newaccount_button:::p:38:p, space :::p, comp button1:::p:38:p, space :::p, comp Delete_an_accountbutton:::p:38:p, space :::p, comp Financial_transactions_listbutton:::p:38:p, space :::p, comp button2:::p:38:p, space :::p, comp Change_password_button:::p:38:p, space ::39:x}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 75, 60, 110, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "First name  :"
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Last name  :"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "lastname_label"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "Available_accounts_list_button"
+					"text": "Available accounts list"
+					"background": &Color0 new java.awt.Color( 255, 89, 143, 255 )
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Available_accounts_list_buttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "Available_accounts_list_buttonMouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Available_accounts_list_buttonMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Available_accounts_list_buttonMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Available_accounts_list_buttonMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Available_accounts_list_buttonMouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "Create_a_newaccount_button"
+					"text": "Create a new current account"
+					"background": #Color0
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Create_a_newaccount_buttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "Create_a_newaccount_buttonMouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Create_a_newaccount_buttonMouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "Change_password_button"
+					"text": "Change password"
+					"background": #Color0
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Change_password_buttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "Change_password_buttonMouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Change_password_buttonMouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "Financial_transactions_listbutton"
+					"text": "Financial transactions list"
+					"background": #Color0
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Financial_transactions_listbuttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "Financial_transactions_listbuttonMouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Financial_transactions_listbuttonMouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "Delete_an_accountbutton"
+					"text": "Delete an account"
+					"background": #Color0
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Delete_an_accountbuttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "Delete_an_accountbuttonMouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Delete_an_accountbuttonMouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "Money_transfer_button"
+					"text": "Money transfer"
+					"background": #Color0
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button6MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Money_transfer_buttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "Money_transfer_buttonMouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "Money_transfer_buttonMouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Money_transfer_buttonMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Money_transfer_buttonMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Money_transfer_buttonMouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "Money_transfer_buttonMouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "X"
+					"foreground": &Color1 new java.awt.Color( 255, 89, 143, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "-"
+					"foreground": #Color1
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 5, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "first_name_label"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new java.awt.Font( "Berlin Sans FB", 0, 14 )
+					"text": "Customers menu"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Create a new saving account"
+					"foreground": &Color2 new java.awt.Color( 255, 255, 255, 255 )
+					"font": &Font0 new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"background": &Color3 new java.awt.Color( 255, 89, 143, 255 )
+					"borderPainted": false
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": " set continuos deposit "
+					"foreground": #Color2
+					"font": #Font0
+					"background": #Color3
+					"borderPainted": false
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button2MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button2MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 95, 10 )
+			"size": new java.awt.Dimension( 440, 520 )
+		} )
+	}
+}

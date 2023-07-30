@@ -1,0 +1,252 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {comp panel1::l:::x}"
+			"$verticalGroup": "par l {comp panel1::l:::x}"
+		} ) {
+			name: "this"
+			"undecorated": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:17:p, par l {seq l {par l {seq l {comp label3:::p:179:p, space u:::p, comp DogBox:::p::p, space s:::p, comp CatBox:::p::p, space :p:29:p, comp Parrot_checkBox:::p::p}, seq l {comp label4:::p:179:p, space u:::p, comp FranceBox1:::p::p, space :::p, comp AustraliaBox2:::p::p, space :::p, comp JpanBox:::p::p}, seq l {comp label5:::p:179:p, space u:::p, comp BlueBox:::p::p, space s:::p, comp RedBox:::p::p, space :p:32:p, comp GreenBox:::p::p}}, space :p:21:p, par l {comp OrangeBox:::p::p, comp BrazilkBox:::p::p, comp HamestercheckBox_:::p::p}}, seq l {par t {seq {comp button2:::p:116:p, space :p:38:p, comp button1:::p:116:p}, seq {comp label7:::p:179:p, space u:::p, comp BananaBox:::p::p, space :::p, comp AppleBox:::p::p, space s:::p, comp OrageBox:::p::p}}, space u:::p, comp GrapesBox:::p::p}}, space :::x}, seq {space :p:28:p, comp label1:::p::p, space :p:25:p, par l {seq l {space :0:11:x, comp label6:::p:152:p, space :p:149:p, comp label14:::p:20:p, space u:::p, comp label13:::p:20:p}, comp textField1:::p:269:p}}}"
+				"$verticalGroup": "par l {seq l {par l {par b {comp label13::b:p:19:p, comp label14::b:p:19:p}, seq l {space :p:17:p, comp label6:::p:35:p}}, space :p:26:p, par b {comp label1::b:p:35:p, comp textField1::b:p::p}, space :p:42:p, par b {comp label3::b:p:35:p, comp DogBox::b:p::p, comp HamestercheckBox_::b:p::p, comp Parrot_checkBox::b:p::p, comp CatBox::b:p::p}, space u:::p, par b {comp label4::b:p:35:p, comp FranceBox1::b:p::p, comp AustraliaBox2::b:p::p, comp JpanBox::b:p::p, comp BrazilkBox::b:p::p}, space u:::p, par b {comp label5::b:p:35:p, comp BlueBox::b:p::p, comp RedBox::b:p::p, comp GreenBox::b:p::p, comp OrangeBox::b:p::p}, space u:::p, par b {comp label7::b:p:35:p, comp BananaBox::b:p::p, comp AppleBox::b:p::p, comp OrageBox::b:p::p, comp GrapesBox::b:p::p}, space ::38:x, par b {comp button2::b:p:32:p, comp button1::b:p:32:p}, space :p:18:p}}"
+			} ) {
+				name: "panel1"
+				"background": new java.awt.Color( 75, 60, 110, 255 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "password recovery"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 16 )
+					"background": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "Enter your nationalID :"
+					"foreground": sfield java.awt.Color white
+					"font": &Font0 new java.awt.Font( "Segoe UI Semibold", 0, 13 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Choose your favorite animal"
+					"foreground": sfield java.awt.Color white
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Choose your favorite country"
+					"foreground": sfield java.awt.Color white
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Choose your favorite color"
+					"foreground": sfield java.awt.Color white
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Choose your favorite fruit"
+					"foreground": sfield java.awt.Color white
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "DogBox"
+					"text": "Dog"
+					"background": &Color0 new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": sfield java.awt.Color white
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "CatBox"
+					"text": "Cat"
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "Parrot_checkBox"
+					"text": "Parrot"
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "HamestercheckBox_"
+					"text": "Hamester"
+					"background": #Color0
+					"foreground": sfield java.awt.Color white
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "FranceBox1"
+					"text": "France"
+					"background": &Color1 new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": sfield java.awt.Color white
+					"font": &Font1 new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"$buttonGroup": new FormReference( "buttonGroup2" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "AustraliaBox2"
+					"text": "Australia"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup2" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "JpanBox"
+					"text": "Japan"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup2" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "BrazilkBox"
+					"text": "Brazil"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup2" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "BlueBox"
+					"text": "Blue"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup3" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "RedBox"
+					"text": "Red"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup3" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "GreenBox"
+					"text": "Green"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup3" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "OrangeBox"
+					"text": "Orange"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup3" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "BananaBox"
+					"text": "Banana"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup4" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "AppleBox"
+					"text": "Apple"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup4" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "OrageBox"
+					"text": "Orange"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup4" )
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "GrapesBox"
+					"text": "Grapes"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+					"font": #Font1
+					"$buttonGroup": new FormReference( "buttonGroup4" )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "recovery"
+					"foreground": sfield java.awt.Color white
+					"background": &Color2 new java.awt.Color( 255, 89, 143, 255 )
+					"borderPainted": false
+					"font": &Font2 new java.awt.Font( "Segoe UI Semibold", 1, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField1"
+					"background": new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "X"
+					"foreground": &Color3 new java.awt.Color( 255, 89, 143, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "-"
+					"foreground": #Color3
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 5, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "cancel"
+					"foreground": sfield java.awt.Color white
+					"background": #Color2
+					"borderPainted": false
+					"font": #Font2
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button2MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button2MouseExited", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 570, 455 )
+		} )
+	}
+}

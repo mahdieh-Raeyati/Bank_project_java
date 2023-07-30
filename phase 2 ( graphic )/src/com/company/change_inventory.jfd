@@ -1,0 +1,116 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq t {comp panel1::::384:x, space :p:0:p}}"
+			"$verticalGroup": "par l {comp panel1:::::x}"
+		} ) {
+			name: "this"
+			"undecorated": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq t {space :::x, par t {comp label1:::p::p, comp label2::t:p:103:p}, space :::p, par l {seq l {par t {comp textField2:::p:186:p, comp button1:::p:104:p}, space :::p, comp label5:::p:34:p}, seq l {comp label3:::p:186:p, space :::p, par l {comp label4::l:p:34:p, seq l {space :p:12:p, comp label14:::p:20:p, space :::p, comp label13:::p:20:p}}}}}, seq l {space :p:81:p, comp button2:::p:105:p, space :::x}}"
+				"$verticalGroup": "par l {seq l {space :p:2:p, par t {seq {par b {comp label13::b::21:x, comp label14::b:p:19:p}, space :p:35:p, comp label4:::p:34:p}, par l:t {comp label1:::p:34:p, comp label3:::p:37:p}}, space s:::p, par b {comp textField2::b:p:34:p, comp label5::b:p:34:p, comp label2::b:p:34:p}, space s:::p, par b {comp button2::b:p:33:p, comp button1::b:p:33:p}, space ::26:x}}"
+			} ) {
+				name: "panel1"
+				"foreground": sfield java.awt.Color white
+				"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				"background": new java.awt.Color( 75, 60, 110, 255 )
+				"border": new javax.swing.border.LineBorder( sfield java.awt.Color white, 4, false )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"text": "present inventory :"
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 13 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"foreground": sfield java.awt.Color white
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color white, 1, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "new inventory  :"
+					"foreground": sfield java.awt.Color white
+					"font": &Font0 new java.awt.Font( "Segoe UI Semibold", 0, 13 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "textField2"
+					"background": new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"border": new javax.swing.border.LineBorder( sfield java.awt.Color white, 1, false )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Rial"
+					"foreground": sfield java.awt.Color white
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Rial"
+					"foreground": sfield java.awt.Color white
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "-"
+					"foreground": &Color0 new java.awt.Color( 255, 89, 143, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 5, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "done"
+					"background": new java.awt.Color( 255, 89, 143, 255 )
+					"foreground": sfield java.awt.Color white
+					"border": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "cancel"
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"background": new java.awt.Color( 255, 89, 143, 255 )
+					"borderPainted": false
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button2MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button2MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "X"
+					"foreground": #Color0
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 10, 45 )
+			"size": new java.awt.Dimension( 400, 265 )
+		} )
+	}
+}

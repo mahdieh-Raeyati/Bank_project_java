@@ -1,0 +1,65 @@
+// deleting an employee
+    public void delete_employee_profile() {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the employee id that you want to remove");
+        String employeeId = input.next();
+        File file = new File("employee profile.json");
+        ArrayList<Employee> employees = null;
+        if (file.exists()) {
+            employees = gson_to_arrayList_employee(employees);
+
+            Boolean deletedEmployee = false;
+            for (int i = 0; i < employees.size(); i++) {
+                if (employees.get(i).nationalID.equals(employeeId)) {
+                    employees.remove(i);
+                    System.out.println("Deleted successfully");
+                    deletedEmployee = true;
+                    break;
+                }
+            }
+            if (deletedEmployee) {
+                arrayList_to_gson_employee(employees);
+            }else {
+                System.out.println("there's no employee with this id!");
+            }
+        } else {
+            System.out.println("File not exist!");
+        }
+    }
+
+
+
+
+    // writing to gson employee file
+    public static void arrayList_to_gson_employee(ArrayList employees) {
+        Gson gson = new Gson();
+        String result = gson.toJson(employees);
+        try {
+            FileWriter cWriter = new FileWriter("employee profile.json");
+            cWriter.write(result);
+            cWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+//READ ON FILE AND CONVERT TO STRING FOOOOR EMPLOYEE
+    public ArrayList gson_to_arrayList_employee(ArrayList employees) {
+        Gson gson = new Gson();
+        String data = "";
+        File employeeProfileFile = new File("employee profile.json");
+        try {
+            Scanner reader = new Scanner(employeeProfileFile);
+            while (reader.hasNextLine()) {
+                data += reader.nextLine();
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        employees = gson.fromJson(data, new TypeToken<ArrayList<Employee>>() {
+        }.getType());
+        return employees;
+    }

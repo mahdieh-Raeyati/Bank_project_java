@@ -1,0 +1,417 @@
+JFDML JFormDesigner: "7.0.2.4.305" Java: "11.0.5" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq l {comp panel5:::p:515:p, space :0:0:x}}"
+			"$verticalGroup": "par l {comp panel5::t:::x}"
+		} ) {
+			name: "this"
+			"undecorated": true
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+				"$horizontalGroup": "par l {seq {space :p:31:p, par l {comp label3:::p:80:p, comp label7::l:p:80:p, comp label6::l:p:80:p, comp label10::l:p:80:p, comp label5:::p:80:p, comp label9:::p:80:p, comp label2::l:p:80:p, comp label4:::p:80:p}, par l {seq l {space :p:17:p, comp label12:::p::p, space :::p, comp comboBox1:::p:67:p, space :p:84:p, comp comboBox2:::p:48:p, space :p:313:p, comp label20:::::x}, seq l {space :::p, par l {seq {par l:::p {seq l {par l {comp FirstnField1::l:p:151:p, comp LastnameField::l:p:149:p}, space :p:4:p, par l {comp label15:::p:157:p, comp label1:::p:147:p}}, seq l {comp MailButton3:::p::p, space :p:43:p, comp FemailButton2:::p::p, space :::p, comp label18:::p:142:p}, par t:l {seq {comp Email:::p:151:p, space :::p, comp label19:::p:187:p}, seq {comp label22:::p:41:p, space :p:75:p, comp label23:::p:29:p, space :p:12:p, comp comboBox3:::p:43:p}}, par t:l {comp label11::t:p:226:p, seq l {comp button2:::p:125:p, space s:::p, comp button1:::p:116:p}}, seq l {comp phoneField5:::p:149:p, space :::p, comp label17:::::x}, seq l {comp address:::p:288:p, space :::p, comp label21:::p:65:p}, seq l {comp NationalIDField3:::p:149:p, space :::p, comp label16:::::x}}, space :0:0:x}, seq {space :p:61:p, comp label8:::p:144:p, space :::x, comp label14:::p:20:p, space :::p, comp label13:::p:20:p, space :p:183:p}}}}, space :::p}}"
+				"$verticalGroup": "par l {seq l {par l {seq {space :p:2:p, comp label8:::p:30:p}, par b:l {comp label13::b:p:19:p, comp label14::b:p:19:p}}, space :p:16:p, par b {comp label2::b:p:30:p, comp FirstnField1::b:p::p, comp label1::b:p:30:p}, space :::p, par b {comp label3::b:p:30:p, comp LastnameField::b:p::p, comp label15::b:p:30:p}, space :::p, par b {comp label7::b:p:30:p, comp NationalIDField3::b:p::p, comp label16::b:p:30:p}, space :::p, par b {comp label4::b:p:30:p, comp phoneField5::b:p::p, comp label17::l:p:30:p}, space :p:12:p, par b {comp label9::b:p:30:p, comp MailButton3::b:p::p, comp FemailButton2::b:p:18:p, comp label18::l:p:30:p}, space :::p, par l {par b:t {comp label6::b:p:30:p, comp Email::b:p::p}, comp label19:::p:30:p}, space :::p, par l {par b:l {comp label10::b:p:30:p, comp label12::b:::x, comp comboBox1::b:p::p, comp label23::b:p::p, comp label22::b:p::p, comp comboBox3::b:p::p, comp comboBox2::b:p::p}, comp label20::l:p:30:p}, space :::p, par l {par b {comp label5::b:p:30:p, comp address::b:p::p}, comp label21:::p:30:p}, space s:::p, par l {comp button1:::p:33:p, comp button2:::p:33:p}, space u:::p, comp label11:::p:30:p, space :p:10:p}}"
+			} ) {
+				name: "panel5"
+				"background": new java.awt.Color( 75, 60, 110, 255 )
+				"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				"autoscrolls": true
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "First name :"
+					"foreground": &Color0 new java.awt.Color( 255, 255, 255, 255 )
+					"font": &Font0 new java.awt.Font( "Segoe UI Semibold", 0, 13 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "FirstnField1"
+					"background": &Color1 new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+					"text": "Last name :"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+					"text": "Phone :"
+					"foreground": #Color0
+					"font": #Font0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label4MouseEntered", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+					"text": "Address :"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+					"text": "Email :"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "National ID :"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Register"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 1, 18 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Gender :"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label10"
+					"text": "Birthdate :"
+					"foreground": #Color0
+					"font": #Font0
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "NationalIDField3"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "LastnameField"
+					"background": #Color1
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "address"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "phoneField5"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "Email"
+					"background": #Color1
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Next"
+					"foreground": new java.awt.Color( 255, 255, 255, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"background": new java.awt.Color( 255, 89, 143, 255 )
+					"borderPainted": false
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button1MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button1MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button1MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label11"
+					"text": "Already have an account ? Login !"
+					"foreground": new java.awt.Color( 204, 204, 204, 255 )
+					"font": #Font0
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label11MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label11MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label11MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "FemailButton2"
+					"text": "Femail"
+					"background": &Color2 new java.awt.Color( 75, 60, 110, 255 )
+					"font": &Font1 new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"foreground": &Color3 new java.awt.Color( 255, 255, 255, 255 )
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JRadioButton" ) {
+					name: "MailButton3"
+					"text": "Mail"
+					"background": #Color2
+					"font": #Font1
+					"foreground": #Color3
+					"$buttonGroup": new FormReference( "buttonGroup1" )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label15"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label16"
+					"foreground": &Color4 new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label18"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label19"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label20"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button2"
+					"text": "Cancel"
+					"background": new java.awt.Color( 255, 89, 143, 255 )
+					"borderPainted": false
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "button2MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "button2MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox1"
+					"background": new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": sfield java.awt.Color white
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "1300"
+						addElement( "1300" )
+						addElement( "1301" )
+						addElement( "1302" )
+						addElement( "1303" )
+						addElement( "1304" )
+						addElement( "1305" )
+						addElement( "1306" )
+						addElement( "1307" )
+						addElement( "1308" )
+						addElement( "1309" )
+						addElement( "1310" )
+						addElement( "1311" )
+						addElement( "1312" )
+						addElement( "1313" )
+						addElement( "1314" )
+						addElement( "1315" )
+						addElement( "1316" )
+						addElement( "1317" )
+						addElement( "1318" )
+						addElement( "1319" )
+						addElement( "1320" )
+						addElement( "1321" )
+						addElement( "1322" )
+						addElement( "1323" )
+						addElement( "1324" )
+						addElement( "1325" )
+						addElement( "1326" )
+						addElement( "1327" )
+						addElement( "1328" )
+						addElement( "1329" )
+						addElement( "1330" )
+						addElement( "1331" )
+						addElement( "1332" )
+						addElement( "1333" )
+						addElement( "1334" )
+						addElement( "1335" )
+						addElement( "1336" )
+						addElement( "1337" )
+						addElement( "1338" )
+						addElement( "1339" )
+						addElement( "1340" )
+						addElement( "1341" )
+						addElement( "1342" )
+						addElement( "1343" )
+						addElement( "1344" )
+						addElement( "1345" )
+						addElement( "1346" )
+						addElement( "1347" )
+						addElement( "1348" )
+						addElement( "1349" )
+						addElement( "1350" )
+						addElement( "1351" )
+						addElement( "1352" )
+						addElement( "1353" )
+						addElement( "1354" )
+						addElement( "1355" )
+						addElement( "1356" )
+						addElement( "1357" )
+						addElement( "1358" )
+						addElement( "1359" )
+						addElement( "1360" )
+						addElement( "1361" )
+						addElement( "1362" )
+						addElement( "1363" )
+						addElement( "1364" )
+						addElement( "1365" )
+						addElement( "1366" )
+						addElement( "1367" )
+						addElement( "1368" )
+						addElement( "1369" )
+						addElement( "1370" )
+						addElement( "1371" )
+						addElement( "1372" )
+						addElement( "1373" )
+						addElement( "1374" )
+						addElement( "1375" )
+						addElement( "1376" )
+						addElement( "1377" )
+						addElement( "1378" )
+						addElement( "1379" )
+						addElement( "1380" )
+						addElement( "1381" )
+						addElement( "1382" )
+						addElement( "1383" )
+						addElement( "1384" )
+						addElement( "1385" )
+						addElement( "1386" )
+						addElement( "1387" )
+						addElement( "1388" )
+						addElement( "1389" )
+						addElement( "1390" )
+						addElement( "1391" )
+						addElement( "1392" )
+						addElement( "1393" )
+						addElement( "1394" )
+						addElement( "1395" )
+						addElement( "1396" )
+						addElement( "1397" )
+						addElement( "1398" )
+						addElement( "1399" )
+					}
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "Year"
+					"font": &Font2 new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label22"
+					"text": "Month"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox2"
+					"background": new java.awt.Color( 75, 60, 110, 255 )
+					"foreground": sfield java.awt.Color white
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "1"
+						addElement( "1" )
+						addElement( "2" )
+						addElement( "3" )
+						addElement( "4" )
+						addElement( "5" )
+						addElement( "6" )
+						addElement( "7" )
+						addElement( "8" )
+						addElement( "9" )
+						addElement( "10" )
+						addElement( "11" )
+						addElement( "12" )
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label23"
+					"text": "Day"
+					"font": #Font2
+					"foreground": sfield java.awt.Color white
+				} )
+				add( new FormComponent( "javax.swing.JComboBox" ) {
+					name: "comboBox3"
+					"background": new java.awt.Color( 75, 60, 110, 255 )
+					"font": new java.awt.Font( "Segoe UI Semibold", 0, 12 )
+					"foreground": sfield java.awt.Color white
+					"model": new javax.swing.DefaultComboBoxModel {
+						selectedItem: "1"
+						addElement( "1" )
+						addElement( "2" )
+						addElement( "3" )
+						addElement( "4" )
+						addElement( "5" )
+						addElement( "6" )
+						addElement( "7" )
+						addElement( "8" )
+						addElement( "9" )
+						addElement( "10" )
+						addElement( "11" )
+						addElement( "12" )
+						addElement( "13" )
+						addElement( "14" )
+						addElement( "15" )
+						addElement( "16" )
+						addElement( "17" )
+						addElement( "18" )
+						addElement( "19" )
+						addElement( "20" )
+						addElement( "21" )
+						addElement( "22" )
+						addElement( "23" )
+						addElement( "24" )
+						addElement( "25" )
+						addElement( "26" )
+						addElement( "27" )
+						addElement( "28" )
+						addElement( "29" )
+						addElement( "30" )
+						addElement( "31" )
+					}
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label21"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label17"
+					"foreground": #Color4
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label13"
+					"text": "X"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 2, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label13MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label13MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label13MouseClicked", true ) )
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label14"
+					"text": "-"
+					"foreground": new java.awt.Color( 255, 89, 143, 255 )
+					"font": new com.jformdesigner.model.SwingDerivedFont( null, 1, 5, false )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseEntered", "label14MouseEntered", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseExited", "label14MouseExited", true ) )
+					addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "label14MouseClicked", true ) )
+				} )
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 35, 5 )
+			"size": new java.awt.Dimension( 510, 475 )
+		} )
+		add( new FormNonVisual( "javax.swing.ButtonGroup" ) {
+			name: "buttonGroup1"
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 15, 496 )
+		} )
+	}
+}
